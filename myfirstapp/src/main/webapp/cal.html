@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+</head>
+<body>
+  <h2>Calculator</h2>
+  <form action="/myfirstapp/calculate" method="post">
+    <div>
+      <label>NUM 1</label>
+      <input type="number" placeholder="number 1" name="first">
+    </div>
+    <div>
+      <label>NUM 2</label>
+      <input type="number" placeholder="number 2" name="second">
+    </div>
+    <hr>
+    <b>SELECT OPTION</b><br>
+    <label><input type="radio" name="operator" value="+"> +</label>
+    <br>
+    <label><input type="radio" name="operator" value="-"> -</label>
+    <br>
+    <label><input type="radio" name="operator" value="*"> *</label>
+    <br>
+    <label><input type="radio" name="operator" value="/"> /</label>
+    <br>
+    <div>
+      <button type="submit">Calculate</button>
+    </div>
+  </form>
+</body>
+</html>
