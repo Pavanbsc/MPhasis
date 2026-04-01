@@ -31,6 +31,23 @@
   application, do not forget to remove the <!.. ..> that surrounds them. You
   will also need to set the passwords to something appropriate.
 -->
+
+
+
+<role rolename="manager-gui"></role>
+ <user username="admin" password="123" roles="manager-gui"/>
+ 
+ 
+ <role rolename="admin"/>
+  <user username="jogi" password="1234" roles="admin"/>
+ 
+ <role rolename="admin"/>
+  <user username="Agni" password="12345" roles="admin"/>
+ 
+  <role rolename="manager"/>
+  <user username="james" password="123" roles="admin"/>
+ 
+ 
 <!--
   <user username="admin" password="<must-be-changed>" roles="manager-gui"/>
   <user username="robot" password="<must-be-changed>" roles="manager-script"/>
@@ -50,3 +67,7 @@
   <user username="role1" password="<must-be-changed>" roles="role1"/>
 -->
 </tomcat-users>
+
+
+
+

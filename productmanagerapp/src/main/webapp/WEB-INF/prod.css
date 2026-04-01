@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.products-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.products-table th, 
+.products-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.products-table th {
+  background: #4CAF50;
+  color: #fff;
+  font-weight: 600;
+}
+
+.products-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.products-table tr:hover {
+  background: #f5f5f5;
+}
